@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+}
+h1 {
+    text-align: center;
+  }
+h1 :hover {
+    color: white;
+    transition: black 5s linear;
+  }
+h1 {
+    color: black;
+}

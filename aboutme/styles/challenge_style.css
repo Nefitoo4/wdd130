@@ -4,10 +4,33 @@ body {
 h1 {
     text-align: center;
   }
-h1 :hover {
+  h1 {
     color: white;
-    transition: black 5s linear;
+    transition: black .5s linear;
+}
+h1:hover {
+    color: black;
   }
 h1 {
-    color: black;
+    font-size: 3.5em;
+}
+  p {
+      color: white;
+  }
+p {
+    text-align: center;
+}
+p {
+    font-size: 1.5em;
+}
+h2 {
+    color: white;
+}
+h2 {
+    text-align: center;
+}
+img {
+    display: block;
+    width: 20%;
+    margin: auto;
 }

@@ -9,15 +9,21 @@ div {
 }
 nav {
     text-align: center;
+    color: bisque;
+    text-decoration: none;
 }
 a {
     text-align: center;
+    color: bisque;
+    text-decoration: none;
+
 }
 h1 {
     text-align: center;
 }
 h4 {
     text-align: center;
+    color: blue;
 }
 .button-box {
     text-align: center;
@@ -28,3 +34,74 @@ main {
 section {
     text-align: center;
 }
+#background {
+    height: 725px;
+}
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+.book {
+    background-color: aqua;
+    color: blue;
+    text-decoration: none;
+}
+.join {
+    background-color: blueviolet;
+    color: blue;
+    text-decoration: none;
+}
+.book:hover {
+    background-color: blue;
+    color: #000000;
+}
+.join:hover {
+    background-color: azure;
+    color: #000000;
+}
+#background {
+    background-color: bisque;
+}
+.msg h2 {
+    background-color: blue;
+    color: brown;
+}
+.msg p {
+    background-color: aquamarine;
+    color: blue;
+}
+footer h3 {
+    background-color: aquamarine;
+    color: blue;
+    text-decoration: none;
+}
+footer a {
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: blue;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+.home-tilte {
+    background-color: blanchedalmond;
+    color: #000000;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
+

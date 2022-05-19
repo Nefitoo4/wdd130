@@ -101,7 +101,16 @@ footer a:hover {
 .icon {
     width: 80px;
 }
-#hero-img {
-    width: 100%;
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
-
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    }
+    .button-box {
+    text-align: center;
+    }
+    main section {
+    text-align: center;
+    }

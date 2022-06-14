@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(66, 76, 188);
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    color: black;
+}
+p {
+    text-align: center;
+    font-size: 2em;
+    color: gray;
+}
+h3 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    padding: 50px 50px;
+    background-color: rgb(39, 75, 129);
+}
+h4 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    padding: 50px 50px;
+    background-color: rgb(39, 75, 129);
+}
+h5 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    padding: 50px 50px;
+    background-color: rgb(39, 75, 129);
+}

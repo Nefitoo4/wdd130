@@ -1,3 +1,4 @@
+/* Home Page */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Lato:wght@300&family=Square+Peg&display=swap');
 header {
     display: grid;
@@ -203,7 +204,8 @@ footer {
         padding: 25px 50px;
         margin-top: 200px;
     }
-    
+
+/* media screen */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -245,3 +247,23 @@ footer {
         margin-top: 25px;
     }
 }    
+
+/* Page 2 Children Page */
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#header {
+    max-width: 5000px;
+    margin: 0 auto;
+}
+#mountains-img {
+    width: 100%;
+}
+.logotype {
+    width: 100px;
+}
+#hero_img {
+    width: 100%;
+}

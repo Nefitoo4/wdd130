@@ -1,9 +1,0 @@
-/* Home Page */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans&family=Tiro+Gurmukhi&display=swap');
-#header {
-    display: grid;
-    grid-template-columns: 1500px auto;
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: rgb(73, 73, 229);
-}

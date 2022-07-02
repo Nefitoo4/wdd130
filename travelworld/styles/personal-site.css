@@ -76,7 +76,56 @@ nav a:hover {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    background-color:grey;
+    opacity: 80%;
+    padding: 5%;
 }
+#content-msg p {
+    font-family: var(--paragraph-font);
+    color:black;
+    font-size: 20px;
+    }
 #mountains {
     width: 100%;
+}
+.home-title {
+    text-align: center;
+    font-family: var(--heading-font);
+    color:#2b4570;
+    font-size: 50px;
+}
+#traveler {
+    display: block;
+    margin: 0 auto;
+}
+/* Main */
+.title {
+    font-family: var(--heading-font);
+    font-size: 30px;
+}
+.text {
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    text-align: justify;
+}
+/* Footer */
+footer {
+    background-color: rgb(73,73,229);
+    margin-top: 5%;
+    margin-bottom: auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+footer h2 {
+    font-family: var(--heading-font);
+    color:gold;
+    margin-left: 5%;
+}
+footer a:hover {
+    color: white;
+}
+.social img {
+    padding: 10px;
 }

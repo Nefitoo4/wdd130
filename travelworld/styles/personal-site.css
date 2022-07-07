@@ -19,7 +19,7 @@
     --paragraph-background-color: rgb(73, 73, 229)  ;
     --nav-link-color: white;
     --nav-background-color: orange;
-    --nav-hover-link-color: black;
+    --nav-hover-link-color: white;
   }
   /* Header*/  
 #header {
@@ -33,6 +33,9 @@ h1 {
     font-family: var(--heading-font);
     margin: 13%;
     font-size: 55px;
+}
+h1:hover {
+    color:gold;
 }
 .travel-world-logo {
     width: 90%;
@@ -51,13 +54,14 @@ nav {
 nav a {
     text-align: center;
     padding:35px;
-    text-decoration: none;  
+    text-decoration: none;
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
+    background-color: #000;
 }
 /* Content */
 #content {
@@ -82,6 +86,9 @@ nav a:hover {
     font-family: var(--paragraph-font);
     color:black;
     font-size: 20px;
+    }
+    #content-msg:hover {
+        opacity: 95%;
     }
 #mountains {
     width: 100%;
@@ -131,17 +138,27 @@ footer {
     background-color: rgb(73,73,229);
     margin-top: 5%;
     margin-bottom: auto;
-    padding: 20px 20px;
+    padding: 20px;
     display: flex;
     justify-content:space-between;
     align-items: center;
+    text-align: center;
 }
 footer h2 {
     font-family: var(--heading-font);
-    color:gold;
     margin-left: 5%;
+    padding: 15px;
+}
+footer h2:hover {
+    background-color: #000;
+}
+footer a {
+    text-align: center;
+    text-decoration: none;
+    color:gold;
 }
 footer a:hover {
+    text-align: center;
     color: white;
 }
 .social img {

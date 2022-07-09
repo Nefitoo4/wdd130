@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
+    <link rel="stylesheet" href="styles/personal-site.css" type="text/css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div id="header">
-            <img class="travel world logo" src="images/airplane_logo.png" alt="airplain logo">
+            <img class="travel-world-logo" src="images/airplane_logo.png" alt="airplain logo">
             <h1>Travel World</h1>
         </div>
     </header>
@@ -26,7 +28,7 @@
             <p class="text">No, this website does not work as travel agency, travelworld is just a community website that join the opinion
                 of all travelers around the world to share their opinions and experiences to help other travelers and adventurers as a trip advisor.
             </p>
-            <img id="passports" src="images/rsz_pexels-spencer-davis-4353813.jpg" alt="passport image">
+            <img id="passports" src="images/rsz_pexels-spencer-davis-4353813.jpg" alt="passport image" style="width: 500px; height: 500px;">
         </section>
         <section class="faq-section">
             <h3 class="sub-title">2. Does this website charge any commission for trip consultancy?</h3>
@@ -56,9 +58,34 @@
                 </p>
                 <img id="woman-with-luggage" src="images/rsz_woman-with-luggage-medical-mask-airport-during-pandemic.jpg" alt="woman in the airport image">
             </section>
+                    <!--Top Button-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+        </script>
         </main>
+    <!-- Footer -->
     <footer>
         <h2 id="footer"><a href="contact_us.html">Contact Us</a></h2>
+        <h2 id="site plan"><a href="https://nefitoo4.github.io/wdd130/travelworld/site-plan.html">Site Plan</a></h2>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">

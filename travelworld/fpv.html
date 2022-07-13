@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorite Places to Visit</title>
-    <link rel="sheetstyle" href="styles/personal-site.css" type="text/css">
+    <link rel="stylesheet" href="styles/personal-site.css" type="text/css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div id="header">
-            <img class="travel world logo" src="images/airplane_logo.png" alt="airplain logo">
+            <img class="travel-world-logo" src="images/airplane_logo.png" alt="airplain logo">
             <h1>Travel World</h1>
         </div>
     </header>
+    <!-- Navigator -->
     <div id="navigator">
         <nav>
             <a href="index.html">Home</a>
@@ -22,6 +24,7 @@
         </nav>
     </div>
     <main>
+        <!-- Body -->
         <h2 class="title">Favorite Places to Visit</h2>
         <p class="text">Traveler, because we gather all the opinions and information of every traveler of the world
             we have concluded the most visited places in the world and that are the favorite of the most turist and adventurers:
@@ -32,7 +35,7 @@
             built in an archipelago with other isles around. That's the reason why this city seems to be floating in the see,
             the streets are the rivers of water and but but the buildings seems that where constructed by the best architectures because its structures never fall down.
         </p>
-        <img id="venice" src="images/rsz_pexels-david-bartus-586687.jpg" alt="venice image">
+        <img id="venice" src="images/rsz_pexels-david-bartus-586687.jpg" alt="venice image" style="width: 500px; height: 500px;">
         </section>
         <section class="places">
         <h3 class="h3">Giza, Egipt</h3>
@@ -40,20 +43,48 @@
             It's a popular place because of it's attractive archeology like the piramids,
             one of the representative is the sphinx Keops in the Giza's plateau.
         </p>
-        <img id="sphinx" src="images/pexels-j-r-11010719.jpg" alt="phinx keops image">
+        <img id="sphinx" src="images/pexels-j-r-11010719.jpg" alt="phinx keops image" style="width: 500px; height: 500px;">
         </section>
         <section class="places">
             <h3 class="h3">Taj Mahal, India.</h3>
-            <p class="topic">The meaning of this beautiful palace is 'Palace's Crown', this is a monument funeral constructed between 1631 and 1654 in Agra City, Uttar Pradesh (India).
+            <p class="text">The meaning of this beautiful palace is 'Palace's Crown', this is a monument funeral constructed between 1631 and 1654 in Agra City, Uttar Pradesh (India).
                 The emperor Muslim Shah Jahan, in honor to his favorite spose, Arjumand Banu Begum, known also as Mumtaz Mahal.
                 Taj Mahal is considered the most beautiful palace, its architecture combine elements of Islamic, Persian, India, and even Turkish.
                 The monument has characterized for an special romantic inspiration.
             </p>
-            <img id="taj-mahal" src="images/rsz_pexels-sudipta-mondal-1603650.jpg" alt="taj-mahal image">
+            <img id="taj-mahal" src="images/rsz_pexels-sudipta-mondal-1603650.jpg" alt="taj-mahal image" style="width: 550px; height: 500px;">
         </section>
     </main>
+</section>
+</div>
+    <!--Top Button-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+
+    <!-- Footer -->
     <footer>
         <h2 id="footer"><a href="contact_us.html">Contact Us</a></h2>
+        <h2 id="site-plan"><a href="https://nefitoo4.github.io/wdd130/travelworld/site-plan.html">Site Plan</a></h2>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">

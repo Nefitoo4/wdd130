@@ -107,6 +107,7 @@ nav a:hover {
 .title {
     font-family: var(--heading-font);
     font-size: 30px;
+    margin-left: 7%;
 }
 .text {
     font-family: var(--paragraph-font);
@@ -177,9 +178,30 @@ footer a:hover {
 .sub-title {
     font-family: var(--heading-font);
     font-size: 25px;
+    margin-left: 7%;
 }
 .text {
     font-family: var(--paragraph-font);
     font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+/* Page 3 -- Favorite Places to Visit (FPV) */
+#venice {
+    display: block;
+    margin: 0 auto;
+}
+#sphinx {
+    display: block;
+    margin: 0 auto;
+}
+#taj-mahal {
+    display: block;
+    margin: 0 auto;
+}
+.h3 {
+    font-family: var(--heading-font);
+    font-size: 25px;
+    margin-left: 7%;
+}
